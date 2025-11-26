@@ -1,4 +1,4 @@
-#   ![Icon description](shopify-icon.png) Shopify Code Snippets & Development Training Repository
+#   <img src="shopify-icon.png" alt="Shopify Icon" width="20" height="20"> Shopify Code Snippets & Development Training Repository
 
 A curated collection of my Shopify development exercises, hands-on training projects, and reusable code snippets.  
 This repository serves as both a learning archive and a practical toolkit for real-world Shopify theme development, optimization, and customization.
