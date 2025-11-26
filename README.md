@@ -1,65 +1,63 @@
 Shopify Code Snippets & Development Training Repository
 
-A collection of my Shopify development exercises, training projects, and reusable code snippets.
-This repository serves as both a learning archive and a toolkit for real-world Shopify theme development, optimization, and customization.
+A curated collection of my Shopify development exercises, hands-on training projects, and reusable code snippets.
+This repository serves as both a learning archive and a practical toolkit for real-world Shopify theme development, optimization, and customization.
 
-⭐ Overview
+Overview
 
-This repo contains practical Shopify 2.0 examples, including:
+This repo includes practical Shopify Online Store 2.0 examples such as:
 
 Liquid templating exercises
 
-Custom schema settings
+Custom theme schema settings
 
-Theme section/blocks creation
+Section and block creation
 
-Mobile optimization snippets
+Mobile-first optimization snippets
 
-Checkout & cart customization scripts
+Checkout and cart enhancement scripts
 
-UI/UX improvements for Dawn-based themes
+UI/UX improvements for Dawn and other 2.0 themes
 
-Reusable components for client projects
+Reusable components for production-ready client work
 
-Each snippet is organized and documented so it can be easily reused or adapted for any Shopify store.
+Each snippet is organized and easy to adapt into any Shopify project.
 
-🔧 Technologies Used
+Technologies Used
 
 Shopify Liquid
 
-Shopify Online Store 2.0
+Shopify Online Store 2.0 architecture
 
-JSON Theme Schema
+JSON theme schema
 
 JavaScript (Vanilla + Shopify-specific patterns)
 
-CSS & Responsive Design
+CSS and responsive design
 
-Git / GitHub
+Git and GitHub
 
 Why This Repo Exists
 
-This project documents my journey mastering Shopify development.
-The goal is to:
+This repository documents my journey as I deepen my Shopify development skills.
+My goals with this project are to:
 
-Train consistently
+Train consistently and build hands-on experience
 
-Create reusable components for client projects
+Develop reusable components for client stores
 
-Build a strong portfolio of real Shopify solutions
+Build a strong Shopify-focused portfolio
 
-Demonstrate capability in theme customization and optimization
+Demonstrate my ability to customize, optimize, and extend Shopify themes
 
-🤝 Contributions
+Contributions
 
-This repo is primarily for personal development,
-but suggestions and improvements are welcome.
-
-Feel free to open an issue or submit a pull request.
+This repo is primarily for personal development, but suggestions and improvements are welcome.
+You may open an issue or submit a pull request if you'd like to contribute.
 
 Contact
 
-If you’d like to collaborate, need a Shopify developer, or want custom store upgrades:
+If you’d like to collaborate, need Shopify development support, or want custom store upgrades:
 
 Email: ayomideanees2003@gmail.com
 Portfolio: [anees.com](https://aneesbusari.netlify.app/)
