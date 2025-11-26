@@ -1,0 +1,30 @@
+  <a href="{{ routes.root_url }}" class="logo-mobile header__heading-link link link--text focus-inset">
+        {%- if settings.mobile_logo != blank -%}
+          <div class="header__heading-logo-wrapper">
+            {%- assign logo_alt = settings.mobile_logo.alt | default: shop.name | escape -%}
+            {%- assign logo_height = settings.mobile_logo_width | divided_by: settings.logo.aspect_ratio -%}
+            {% capture sizes %}(max-width: {{ settings.mobile_logo_width | times: 2 }}px) 50vw, {{ settings.mobile_logo_width }}px{% endcapture %}
+            {% capture widths %}{{ settings.mobile_logo_width }}, {{ settings.mobile_logo_width | times: 1.5 | round }}, {{ settings.mobile_logo_width | times: 2 }}{% endcapture %}
+            {{
+              settings.mobile_logo
+              | image_url: width: 600
+              | image_tag:
+                class: 'header__heading-logo motion-reduce',
+                widths: widths,
+                height: logo_height,
+                width: settings.mobile_logo_width,
+                alt: logo_alt,
+                sizes: sizes,
+                preload: true
+            }}
+          </div>
+        {%- else -%}
+          <span class="h2">{{ shop.name }}</span>
+        {%- endif -%}
+      </a>
+      
+{% comment %} This ensures:
+
+The mobile logo displays only when uploaded
+
+The desktop logo remains untouched {% endcomment %}
